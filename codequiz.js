@@ -2,27 +2,33 @@
 let questions = [
   {
     // Question 1
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "What does HTML stand for?",
+    correct_answer: "Hypertext Markup Language",
+    answerChoices: [
+      "Hello there, my lad",
+      "Hypertext Markdown Language",
+      "Hypertext Markup Language",
+      "Hypersonic Test Making Language",
+    ],
   },
   {
     // Question 2
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "Which language refers to a Stylesheet?",
+    correct_answer: "CSS",
+    answerChoices: ["HTML", "CSS", "Javascript", "French"],
   },
   {
     // Question 3
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "Which is NOT a semantic HTML tag?",
+    correct_answer: "Blocker",
+    answerChoices: ["Blocker", "Section", "Article", "Aside"],
   },
   {
     // Question 4
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question:
+      "In Terminal (Mac) & Gitbash (PC), what is the command to change directory?",
+    correct_answer: "cd",
+    answerChoices: ["dc", "ad", "cd", "bc"],
   },
   {
     // Question 5
