@@ -4,6 +4,51 @@ let questions = [
     correct_answer: "",
     answers: ["", "", "", ""],
   },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
+  {
+    question: "",
+    correct_answer: "",
+    answers: ["", "", "", ""],
+  },
 ];
 
 let currentIndex = 0;
