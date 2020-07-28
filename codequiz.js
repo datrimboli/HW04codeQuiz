@@ -32,21 +32,26 @@ let questions = [
   },
   {
     // Question 5
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "How do you push your code from VS Code up to Github?",
+    correct_answer: "git push origin master",
+    answerChoices: [
+      "git pull origin master",
+      "git push origin master",
+      "git pull origin master",
+      "git push place master",
+    ],
   },
   {
     // Question 6
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "How do you create a copy of a repository onto your computer?",
+    correct_answer: "git clone",
+    answerChoices: ["git clone", "git copy", "git paste", "git master"],
   },
   {
     // Question 7
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "Which datatype uses true/false values",
+    correct_answer: "Boolean",
+    answerChoices: ["True/False", "Strings", "Boolean", "Numbers"],
   },
   {
     // Question 8
