@@ -2,52 +2,52 @@ let questions = [
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
   {
     question: "",
     correct_answer: "",
-    answers: ["", "", "", ""],
+    answerchoices: ["", "", "", ""],
   },
 ];
 
@@ -60,17 +60,17 @@ const newQuestion = () => {
   document.getElementById("question").textContent =
     questions[currentIndex].question;
 
-  let answers = questions[currentIndex].answers;
+  let answerchoices = questions[currentIndex].answerchoices;
 
-  document.getElementById("answers").innerHTML = "";
+  document.getElementById("answerchoices").innerHTML = "";
 
-  for (let i = 0; i < answers.length; i++) {
+  for (let i = 0; i < answerchoices.length; i++) {
     let answerElem = document.createElement("button");
     answerElem.className = "answer btn btn-secondary btn-lg";
-    answerElem.dataset.answer = answers[i];
-    answerElem.textContent = answers[i];
+    answerElem.dataset.answer = answerchoices[i];
+    answerElem.textContent = answerchoices[i];
 
-    document.getElementById("answers").append(answerElem);
+    document.getElementById("answerchoices").append(answerElem);
   }
 };
 
@@ -81,12 +81,12 @@ const getAnswer = (answer) => {
     let resultElem = document.createElement("div");
     resultElem.className = "alert alert-success";
     resultElem.textContent = "Correct Answer";
-    document.getElementById("answers").append(resultElem);
+    document.getElementById("answerchoices").append(resultElem);
   } else {
     let resultElem = document.createElement("div");
     resultElem.className = "alert alert-danger";
     resultElem.textContent = "Incorrect Answer";
-    document.getElementById("answers").append(resultElem);
+    document.getElementById("answerchoices").append(resultElem);
   }
 
   currentIndex++;
@@ -101,7 +101,7 @@ const getAnswer = (answer) => {
 };
 
 const endGame = () => {
-  document.getElementById("trivia").innerHTML = `
+  document.getElementById("quiz").innerHTML = `
     <h1 class="display-2">Game Over!</h1>
   <p class="display-4">Your final score is: ${score}</p>
   <hr class="my-4">
@@ -155,7 +155,7 @@ const submitScore = (submission) => {
 
   tableElem.append(bodyElem);
 
-  document.getElementById("trivia").append(tableElem);
+  document.getElementById("quiz").append(tableElem);
 };
 
 document.getElementById("startTrivia").addEventListener("click", () => {
