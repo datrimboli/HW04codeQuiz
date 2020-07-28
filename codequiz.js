@@ -1,50 +1,61 @@
+// Questions array
 let questions = [
   {
+    // Question 1
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 2
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 3
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 4
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 5
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 6
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 7
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 8
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 9
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
   },
   {
+    // Question 10
     question: "",
     correct_answer: "",
     answerchoices: ["", "", "", ""],
