@@ -55,21 +55,27 @@ let questions = [
   },
   {
     // Question 8
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question:
+      "Where should you put your Javascript styling grids from Bootstrap? ",
+    correct_answer: "Bottom of the body",
+    answerChoices: [
+      "Top of the body",
+      "Anywhere",
+      "CSS Stylesheet",
+      "Bottom of the body",
+    ],
   },
   {
     // Question 9
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "Which below would contain an array?",
+    correct_answer: "[]",
+    answerChoices: ["[]", "{}", "()", "``"],
   },
   {
     // Question 10
-    question: "",
-    correct_answer: "",
-    answerChoices: ["", "", "", ""],
+    question: "What would you use to count & do an action multiple times?",
+    correct_answer: "Loop",
+    answerChoices: ["Array", "Variable", "Loop", "Button"],
   },
 ];
 // Variable: Current Index. It moves us through questions array
