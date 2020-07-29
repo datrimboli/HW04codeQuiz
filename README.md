@@ -12,3 +12,4 @@ Upon completion of the ten questions, or a lapse of time (whichever comes first)
 
 Press the "Start Quiz!" button to take the test and check your knowledge of coding!
 
+Link to deployed page: https://datrimboli.github.io/HW04codeQuiz/
